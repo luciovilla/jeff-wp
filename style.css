@@ -1,0 +1,102 @@
+/* #######################################################################
+
+	Theme Name: Preface Child
+	Theme URI: http://preface.wpengine.com
+	Description: Child theme for Preface
+	Author: Lucio Villa
+	Author URI: http://luciovilla.com/
+	Template: preface
+	Version: 0.0.1
+
+######################################################################## */
+
+
+.main-wrap, .max-wrap {
+    max-width: none;
+}
+
+
+.page-template-t-homepage-php header.header {
+    margin-bottom: 0;
+}
+.blog-title:after, .main-archive h2:after {
+  display: none;
+}
+
+.blog-title{
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+.wrap {
+  border-width: 0;
+}
+
+header.header{
+	margin-bottom: 0;
+  padding-top: 3em;
+}
+
+
+
+.item-content, .item-blog{
+	max-width: 1000px;
+	margin: 0 auto;
+	display: block;
+}
+
+.loop-book {
+	max-width: 976px;
+}
+
+.mean-container .mean-bar{
+	position:fixed;
+	top: 0;
+}
+
+
+.main-archive .inner {
+  max-width: 748px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.main-archive .post.format-audio .audio{
+	margin-top:0;
+}
+.no-image .jp-audio.fullwidth {
+    width: 90%;
+}
+
+.format-quote .meta.sharer, .format-quote .quote-source{
+	text-align: center;
+}
+
+.socials {
+	text-align: left;
+}
+
+@media screen and (min-width: 48em){
+	header.header {
+  	padding-top: 60px; 
+  	padding-bottom: 60px; 
+	}
+}
+
+@media screen and (max-width: 860px){
+	.wrap{
+		padding-top:0;
+	}
+}
+
+@media screen and (max-width: 767px){
+	header.header{
+		padding-bottom:40px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.item-content img{
+		width: 50%;
+	}
+}
